@@ -1,0 +1,30 @@
+{
+  "name": "bookshelfapi",
+  "version": "1.0.0",
+  "description": "Tugas Submisen Dicoding",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "lint": "eslint ./"
+  },
+  "keywords": [
+    "BookShelf",
+    "Api",
+    "Dicoding",
+    "Digitalen"
+  ],
+  "author": "Nur Ali Majid",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "nanoid": "^3.3.2",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
